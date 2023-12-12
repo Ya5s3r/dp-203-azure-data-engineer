@@ -63,7 +63,13 @@
         "dependsOn": [],
         "properties": {
             "tags": {
-                "DeploymentId": "[parameters('uniqueSuffix')]"
+                "DeploymentId": "[parameters('uniqueSuffix')]",
+                "Cost Code": "prem",
+                "Creator": "cdsu",
+                "Department": "cdsu",
+                "Environment": "Dev",
+                "Owner": "cdsu",
+                "Project": "testproject"
             }
         }
     },
